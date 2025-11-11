@@ -35,38 +35,45 @@ li {
     outline-color: white;
     color: white;
 }
-.logo-boolean-header{
+.logo-boolean-header {
     width: 200px;
+    padding-top: 10px;
 }
 
 /* REGOLE MAIN */
 
 .card {
-    width: calc(100% / 3 - (40px / 3));
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
+    width: calc(100% / 3 - (40px / 3));   
 }
 img{
     max-width: 100%;
 }
 
-/* DEBUG */
-
-.prezzi{
+.row-flex{
     display: flex;
-    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
+main{
+    margin: 65px 65px 65px 65px;
+}
 .prezzo-corrente{
     color: red;
 }
-
 .prezzo-originale{
     color: black;
     text-decoration-line: line-through;
 }
+
+
+
+
+
+
+
+/* DEBUG */
+
 
 .footer-bar{
     background-color: darkslategrey;
@@ -78,29 +85,27 @@ img{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+
+    padding: 30px 30px 30px 30px;
 }
 
 .altri-link{
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
+    
 }
 .footer-icons{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 
 }
 .footer-icon{
     color: black;
     background-color: white;
 }
-
-.row-flex{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 
