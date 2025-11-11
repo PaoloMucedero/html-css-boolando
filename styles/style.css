@@ -1,0 +1,69 @@
+/* REGOLE PRINCIPALI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* DEBUG */
+
+header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+    margin: 25px 25px;
+    color: white;
+}
+
+strong {
+    display: flex;
+    justify-content: space-between;
+}
+.action-btn-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px;
+    outline-color: white;
+    color: white;
+}
+.logo-boolean-header{
+    width: 200px;
+}
+
+.footer-bar{
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-legali{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.altri-link{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-icon{
+    color: black;
+    background-color: white;
+}
