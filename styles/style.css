@@ -7,13 +7,13 @@
 
 /* REGOLE HEADER */
 
-header{
+header {
     background-color: orangered;
     display: flex;
     justify-content: space-between;
 }
 
-ul{
+ul {
     display: flex;
     align-items: center;
     list-style: none;
@@ -23,11 +23,10 @@ ul{
 }
 
 li {
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold ;
+    font-weight: bold;
 }
-.action-btn-header{
+
+.action-btn-header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +34,7 @@ li {
     outline-color: white;
     color: white;
 }
+
 .logo-boolean-header {
     width: 200px;
     padding-top: 10px;
@@ -43,29 +43,52 @@ li {
 /* REGOLE MAIN */
 
 .card {
-    width: calc(100% / 3 - (40px / 3));   
+    width: calc(100% / 3 - (40px / 3));
+    position: relative;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
-.row-flex{
+.row-flex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
-main{
+
+main {
     margin: 65px 65px 65px 65px;
 }
-.prezzo-corrente{
+
+.prezzo-corrente {
     color: red;
 }
-.prezzo-originale{
+
+.prezzo-originale {
     color: black;
     text-decoration-line: line-through;
 }
 
+.label {
+    padding: 5px 10px;
+    position:absolute;
+    bottom: 25%;
+    left: 0;
+    top: 75%;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    position: relative;
+}
+.sostenibilita {
+   background-color: green;
+   color: white;
+
+}
 
 
 
@@ -75,13 +98,13 @@ main{
 /* DEBUG */
 
 
-.footer-bar{
+.footer-bar {
     background-color: darkslategrey;
     display: flex;
     justify-content: space-around;
 }
 
-.info-legali{
+.info-legali {
     color: white;
     display: flex;
     flex-direction: column;
@@ -90,22 +113,23 @@ main{
     padding: 30px 30px 30px 30px;
 }
 
-.altri-link{
+.altri-link {
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
+
+
 }
-.footer-icons{
+
+.footer-icons {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
 
 }
-.footer-icon{
+
+.footer-icon {
     color: black;
     background-color: white;
 }
-
