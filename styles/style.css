@@ -133,3 +133,11 @@ main {
     color: black;
     background-color: white;
 }
+
+.cuore-card{
+   position: absolute;
+   top: 0;
+   right: 0; 
+   background-color: white;
+   font-size: 90px;
+}
