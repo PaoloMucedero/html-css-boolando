@@ -11,6 +11,9 @@ header {
     background-color: orangered;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 500;
 }
 
 ul {
